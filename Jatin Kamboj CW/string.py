@@ -7,7 +7,7 @@ strc=str.capitalize()
 print(strc)
 
 print("\t\t\t\tCounting Number Of Element\t\t\t\t")
-x=input("Enter The Element TO be Counted ")
+x=input("Enter The Element To be Counted ")
 strC=str.count(x)
 print("It Occured",strC,"times")
 
@@ -26,13 +26,21 @@ print("\t\t\t\tSplitting\t\t\t\t")
 print(str.split())
 
 print("\t\t\t\tReplacing\t\t\t\t")
-old=input("Enter old instance")
+old=input("Enter Old Instance")
 new=input("Enter New Instance")
 print(str.replace(old,new))
 
 print("\t\t\t\tStriping\t\t\t\t")
-print(str.strip())
+x=input("Enter The Stripping Element")
+print(str.strip(x))
 
+print("\t\t\t\tSwap Casing\t\t\t\t")
+print(str.swapcase())
+
+
+
+
+ 
     
 
 
